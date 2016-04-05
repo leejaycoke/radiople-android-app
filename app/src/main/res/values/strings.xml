@@ -1,0 +1,250 @@
+<resources>
+    <string name="app_name">라디오플</string>
+
+    <string name="production_sender_id">722162225828</string>
+    <string name="development_sender_id">89629903628</string>
+
+    <string name="good_news">반가운 소식</string>
+    <string name="ranking">팟랭킹</string>
+    <string name="category">카테고리</string>
+
+    <string name="about_broadcast">방송 소개</string>
+    <string name="episode">에피소드</string>
+    <string name="comment">댓글</string>
+    <string name="subscription">구독</string>
+    <string name="subscribe">구독하기</string>
+    <string name="subscription_list">구독중인 팟캐스트</string>
+    <string name="cancel_subscription">구독취소</string>
+    <string name="people_subscription_count">%d명이 구독하고있습니다.</string>
+    <string name="error_in_audio_playing">오디오 재생중 에러가 발생했습니다.</string>
+    <string name="file_type_does_not_support">죄송합니다. %s는 아직 지원하지 않습니다.</string>
+
+    <string name="casting">출연진</string>
+    <string name="latest_air_date">최근 방송일</string>
+
+    <string name="report">신고</string>
+
+    <string name="ranked">위</string>
+
+    <string name="search">검색</string>
+    <string name="radiople_search">Radiople 검색</string>
+    <string name="search_keyword">검색어</string>
+
+    <string name="signup_for_world_peace">지금당장 로그인하고\n광명찾자!</string>
+
+    <string name="change_password">비밀번호 변경</string>
+    <string name="password_does_not_match_the_confirm_password">비밀번호가 서로 일치하지 않습니다.</string>
+    <string name="please_enter_a_current_password">현재 비밀번호를 입력해주세요.</string>
+    <string name="please_enter_a_new_password">새로운 비밀번호를 입력해주세요.</string>
+    <string name="please_enter_a_new_password_confirm">새로운 비밀번호 확인을 입력해주세요.</string>
+    <string name="invalid_password_rule">비밀번호는 숫자, 영어만 사용할 수 있습니다.</string>
+    <string name="invalid_password_length">비밀번호는 8~30글자 사이로 입력해주세요.</string>
+    <string name="changed_successfully">성공적으로 변경되었습니다.</string>
+    <string name="changed_successfully_and_re_validate_email">성공적으로 변경되었습니다. 이메일 주소를 인증할 수 있도록 메일을 보내드렸습니다.</string>
+    <string name="change_nickname">닉네임 변경</string>
+    <string name="invalid_nickname_length">닉네임은 3~10글자로 입력해주세요.</string>
+    <string name="invalid_nickname_rule">닉네임은 한글, 영어, 숫자만 사용할 수 있습니다.</string>
+
+    <string name="find_password_information">가입당시 이메일 주소를 적어주시면 비밀번호 변경 안내 페이지를 이메일로 전송해드립니다.</string>
+    <string name="sent_an_email_which_provide_reset_password">새로운 비밀번호로 변경할 수 있도록 이메일을 전송했습니다.</string>
+
+    <string name="no_search_results_were_found">검색 결과를 찾을 수 없습니다.</string>
+
+    <string name="not_support_liking_for_not_user">비회원은 좋아요를 할 수 없어요 :(</string>
+
+    <string name="please_validate_email_address">이메일 주소를 인증해야 합니다.</string>
+    <string name="could_not_get_a_validation_email">인증 이메일을 받지 못하셨나요?</string>
+    <string name="resending_email_validation_email">%s 로 인증 메일을 다시 보내드릴까요?</string>
+
+    <string name="sent_an_email_which_provide_validate_email">이메일 주소를 인증할 수 있는 링크를 %s로 보내드렸습니다.</string>
+
+    <string name="login">로그인</string>
+    <string name="logout">로그아웃</string>
+    <string name="signup">회원가입</string>
+
+    <string name="integer_people_like">%d명이 좋아합니다.</string>
+
+    <string name="finish">종료</string>
+
+    <string name="history">히스토리</string>
+    <string name="settings">설정</string>
+    <string name="writing_comment">댓글 작성</string>
+
+    <string name="setting_push">푸시알림 설정</string>
+
+    <string name="content">내용</string>
+
+    <string name="comment_max_length_is_500">최대 500자</string>
+
+    <string name="setting_personal">개인 설정</string>
+    <string name="setting_profile">회원정보 설정</string>
+    <string name="setting_player">플레이어 설정</string>
+    <string name="time_for_skipping">건너뛰기 시간</string>
+    <string name="time_for_skipping_info">재생중 건너뛰기 버튼을 눌렀을 때 시간을 지정합니다.</string>
+    <string name="allow_mobile_network">모바일 네트워크 허용</string>
+    <string name="allow_all_push">소식/광고 푸시 허용</string>
+    <string name="allow_mobile_network_summary">재생시 모바일 네트워크를 허용합니다.</string>
+    <string name="subscription_push">구독 알림</string>
+
+    <string name="total_episode_count_is">총 %s개의 에피소드</string>
+
+    <string name="not_exists_subscription_broadcast">구독중인 방송이 없습니다.</string>
+
+    <string name="unsubscribe">구독취소</string>
+
+    <string name="do_you_want_to_unsubscribe_all">모두 구독을 취소하시겠습니까?</string>
+
+    <string name="all_push">광고/소식 알림</string>
+    <string name="all_push_summary">유용한 소식을 보내드립니다.</string>
+
+    <string name="user_push">사용자 알림</string>
+    <string name="user_push_summary">이벤트 당첨/개인 맞춤 소식을 보내드립니다.</string>
+
+    <string name="subscription_push_summary">구독하신 방송 소식을 보내드립니다.</string>
+    <string name="needs_login">로그인이 필요합니다.</string>
+
+    <string name="go_to_change">변경하러 가기</string>
+
+    <string name="playing_error">재생 오류</string>
+
+    <string name="sleep_mode">잠자기 모드</string>
+    <string name="sleep_times_left">%d분 뒤 종료</string>
+
+    <string name="not_exists_history">에피소드 청취내역이 없습니다.</string>
+
+    <string name="player_finish_activity">재생 종료시 동작</string>
+    <string name="player_finish_activity_info">에피소드 재생이 종료될때 동작을 선택합니다.</string>
+    <string name="play_next_episode">다음 에피소드 재생</string>
+    <string name="finish_player">플레이어 종료</string>
+
+    <string name="play_continue">이어서 듣겠습니까?</string>
+    <string name="almost_end_play_continue">거의 다 들었습니다. 그래도 이어서 듣겠습니까?</string>
+
+    <string name="please_wait">잠시만 기다려주세요..</string>
+
+    <!-- social -->
+    <!-- message -->
+    <string name="network_error_message">네트워크 연결에 실패했습니다.</string>
+    <string name="retry">재시도</string>
+
+    <string name="not_exists_latest_air_date">최근 방송이 없습니다.</string>
+    <string name="not_exists_broadcast_description">방송 설명이 없습니다.</string>
+
+    <string name="ok">확인</string>
+    <string name="yes">예</string>
+    <string name="no">아니요</string>
+    <string name="cancel">취소</string>
+
+    <string name="user_profile">사용자 프로필</string>
+
+    <string name="current_password">현재 비밀번호</string>
+    <string name="new_password">새로운 비밀번호</string>
+    <string name="new_password_confirm">새로운 비밀번호 (확인)</string>
+    <string name="masked_password">**********</string>
+
+    <string name="notification">새로운 알림</string>
+    <string name="do_you_want_to_stop_now_playing">현재 재생중인 방송을 정지하시겠습니까?</string>
+    <string name="do_you_want_to_logout">로그아웃 하시겠습니까?</string>
+
+    <string name="my_rating_point">%.1f점 평가</string>
+
+    <string name="please_rate_this_broadcast">방송을 평가해주세요.</string>
+
+    <string name="email">이메일 주소</string>
+
+    <string name="password">비밀번호</string>
+
+    <string name="change_email">이메일 주소 변경</string>
+
+    <string name="nickname">닉네임</string>
+
+    <string name="confirm_signup">가입완료</string>
+
+    <string name="new_update_message">라디오플의 새로운 버젼이 있습니다.\n업데이트 하시겠습니까?</string>
+    <string name="new_force_update_message">라디오플의 새로운 버젼으로\n업데이트 하셔야합니다.</string>
+
+    <string name="player_is_preparing">플레이어 준비중..</string>
+
+    <string name="please_enter_an_email">이메일 주소를 입력해주세요.</string>
+    <string name="please_enter_a_nickname">닉네임을 입력해주세요.</string>
+    <string name="please_enter_a_valid_email">옳바른 이메일 주소를 입력해주세요.</string>
+    <string name="please_enter_a_password">비밀번호를 입력해주세요.</string>
+    <string name="signup_success">회원가입이 완료되었습니다.</string>
+
+    <string name="player_stopped_because_of_mobile_networking">모바일 네트워크가 허용되어있지 않아 플레이어를 종료합니다.</string>
+    <string name="not_allowed_mobile_network">모바일 네트워크가 허용되어 있지 않습니다. 설정에서 변경할 수 있습니다.</string>
+    <string name="warning_mobile_network">모바일 네트워크를 사용하면 많은 데이터 요금이 부과될 수 있습니다.</string>
+
+    <string name="not_exists_comment">아직 댓글이 없네요.</string>
+    <string name="bullet">\u2022</string>
+
+    <string name="about_skip_time_for_settings">재생중 건너뛰기 버튼에대한 시간을 지정할 수 있습니다.</string>
+
+    <string name="skip_time_seconds">%d초</string>
+
+    <string name="you_have_to_validate_email">이메일 주소 인증을 받으셔야합니다.</string>
+
+    <string name="find_password">비밀번호 찾기</string>
+
+    <string name="not_exists_contents">아직 아무것도 없네요.</string>
+
+    <string name="today">오늘</string>
+    <string name="yesterday">어제</string>
+    <string name="times_ago">%d일 전</string>
+
+    <string name="etc">기타</string>
+    <string name="warning">경고</string>
+
+    <string name="deletion_warning">삭제하시겠습니까?</string>
+
+    <string name="delete">삭제</string>
+
+    <string name="successfully_reported">신고되었습니다.</string>
+
+    <string name="list_by_popular">인기 순</string>
+    <string name="list_by_rating">평가 순</string>
+    <string name="list_by_subscription_count">구독 순</string>
+    <string name="list_by_latest_air_date">최근 방송 순</string>
+
+    <string name="not_exists_broadcast">방송이 없습니다.</string>
+
+    <string-array name="skip_time_entries">
+        <item>10초</item>
+        <item>20초</item>
+        <item>30초</item>
+        <item>40초</item>
+        <item>50초</item>
+        <item>60초</item>
+    </string-array>
+
+    <string-array name="skip_time_entry_values">
+        <item>10000</item>
+        <item>20000</item>
+        <item>30000</item>
+        <item>40000</item>
+        <item>50000</item>
+        <item>60000</item>
+    </string-array>
+
+    <string-array name="activity_after_finish_entries">
+        <item>플레이어 종료</item>
+        <item>다음 에피소드 재생</item>
+    </string-array>
+
+    <string-array name="activity_after_finish_entry_values">
+        <item>finish</item>
+        <item>play_next_episode</item>
+    </string-array>
+
+    <string-array name="sleep_times">
+        <item>타이머 취소</item>
+        <item>10분</item>
+        <item>20분</item>
+        <item>30분</item>
+        <item>40분</item>
+        <item>50분</item>
+        <item>60분</item>
+    </string-array>
+
+
+</resources>

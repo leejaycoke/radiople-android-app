@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context=".ui.SearchActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:elevation="2dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?android:attr/actionBarSize"
+                android:background="@color/grey_bright"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
+                app:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+                app:titleTextColor="@android:color/primary_text_light"/>
+
+            <RelativeLayout
+                android:id="@+id/search_top_bar"
+                android:layout_width="match_parent"
+                android:layout_height="?android:attr/actionBarSize">
+
+                <EditText
+                    android:id="@+id/edittext_query"
+                    android:layout_width="match_parent"
+                    android:layout_height="?android:attr/actionBarSize"
+                    android:layout_marginLeft="56dp"
+                    android:background="@null"
+                    android:hint="@string/radiople_search"
+                    android:imeOptions="actionSearch"
+                    android:inputType="textNoSuggestions"
+                    android:paddingEnd="10dp"
+                    android:paddingStart="10dp"
+                    android:singleLine="true"
+                    android:textColor="@android:color/primary_text_light"
+                    android:textColorHint="@android:color/tertiary_text_light"
+                    android:textSize="16sp"/>
+
+            </RelativeLayout>
+        </FrameLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.kindabear.radiople.view.paginglistview.PagingListView
+            android:id="@+id/listview_search"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/grey_light"
+            android:dividerHeight="1px"
+            android:fadingEdge="none"
+            android:overScrollMode="never"/>
+
+        <com.kindabear.radiople.view.paginglistview.PagingListView
+            android:id="@+id/listview_search_history"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/grey_light"
+            android:dividerHeight="1px"
+            android:fadingEdge="none"
+            android:overScrollMode="never"/>
+
+        <include layout="@layout/helper_view"/>
+
+    </FrameLayout>
+
+</LinearLayout>

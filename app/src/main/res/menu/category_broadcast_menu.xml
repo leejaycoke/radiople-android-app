@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".MainActivity">
+    <item
+        android:id="@+id/action_list_by_popular"
+        android:title="@string/list_by_popular"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_list_by_rating"
+        android:title="@string/list_by_rating"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_list_by_subscription_count"
+        android:title="@string/list_by_subscription_count"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_list_by_latest_air_date"
+        android:title="@string/list_by_latest_air_date"
+        app:showAsAction="never"/>
+</menu>

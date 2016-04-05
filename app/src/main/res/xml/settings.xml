@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/setting_player">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="allow_mobile_network"
+            android:summary="@string/allow_mobile_network_summary"
+            android:title="@string/allow_mobile_network" />
+
+        <ListPreference
+            android:defaultValue="30000"
+            android:entries="@array/skip_time_entries"
+            android:entryValues="@array/skip_time_entry_values"
+            android:key="skip_time"
+            android:summary="@string/time_for_skipping_info"
+            android:title="@string/time_for_skipping" />
+
+        <ListPreference
+            android:defaultValue="finish"
+            android:entries="@array/activity_after_finish_entries"
+            android:entryValues="@array/activity_after_finish_entry_values"
+            android:key="activity_after_finish"
+            android:summary="@string/player_finish_activity_info"
+            android:title="@string/player_finish_activity" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="push"
+        android:title="@string/setting_push">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="user_push"
+            android:summary="@string/user_push_summary"
+            android:title="@string/user_push" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="all_push"
+            android:summary="@string/all_push_summary"
+            android:title="@string/all_push" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="subscription_push"
+            android:summary="@string/subscription_push_summary"
+            android:title="@string/subscription_push" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="etc"
+        android:title="@string/etc">
+        <Preference
+            android:key="logout"
+            android:title="@string/logout" />
+    </PreferenceCategory>
+</PreferenceScreen>

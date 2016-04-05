@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    package="com.kindabear.radiople"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+
+    <permission
+        android:name="com.kindabear.radiople.permission.C2D_MESSAGE"
+        android:protectionLevel="signature"/>
+
+    <uses-permission android:name="com.kindabear.radiople.permission.C2D_MESSAGE"/>
+
+    <application
+        android:name="com.kindabear.radiople.RadiopleApplication"
+        android:allowBackup="true"
+        android:fullBackupContent="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.kindabear.radiople.ui.SystemCheckActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.kindabear.radiople.ui.MainActivity"/>
+
+        <activity
+            android:name="com.kindabear.radiople.ui.PlayerActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.kindabear.radiople.ui.BroadcastActivity"
+            android:label="@string/about_broadcast"/>
+        <activity
+            android:name="com.kindabear.radiople.ui.LoginActivity"
+            android:label="@string/login"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity
+            android:name="com.kindabear.radiople.ui.SignupActivity"
+            android:label="@string/signup"
+            android:windowSoftInputMode="adjustPan"/>
+
+        <activity
+            android:name="com.kindabear.radiople.ui.SettingsActivity"
+            android:label="@string/settings"/>
+
+        <activity
+            android:name="com.kindabear.radiople.ui.SubscriptionActivity"
+            android:label="@string/subscription_list"/>
+        <activity
+            android:name="com.kindabear.radiople.ui.NotificationActivity"
+            android:label="@string/notification"/>
+
+        <activity
+            android:name="com.kindabear.radiople.ui.SearchActivity"
+            android:label="@string/search"
+            android:theme="@style/AppTheme.Search">
+
+        </activity>
+
+        <activity android:name="com.kindabear.radiople.ui.CategoryActivity"/>
+
+        <activity
+            android:name="com.kindabear.radiople.ui.EpisodeHistoryActivity"
+            android:label="@string/history"/>
+
+        <activity
+            android:name="com.kindabear.radiople.ui.UserActivity"
+            android:label="@string/user_profile"/>
+
+        <activity
+            android:name="com.kindabear.radiople.ui.EditPasswordActivity"
+            android:label="@string/change_password"/>
+        <activity
+            android:name="com.kindabear.radiople.ui.EditEmailActivity"
+            android:label="@string/change_email"/>
+
+        <activity
+            android:name="com.kindabear.radiople.ui.EditNicknameActivity"
+            android:label="@string/change_nickname"/>
+
+        <activity
+            android:name="com.kindabear.radiople.ui.FindPasswordActivity"
+            android:label="@string/find_password"/>
+
+        <activity android:name="com.soundcloud.android.crop.CropImageActivity"/>
+
+        <service
+            android:name="com.kindabear.radiople.ui.PlayerService"
+            android:exported="false"/>
+
+        <service
+            android:name="com.kindabear.radiople.service.PushAgent"
+            android:exported="false"/>
+
+        <receiver
+            android:name="com.google.android.gms.gcm.GcmReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION"/>
+                <action android:name="com.kindabear.radiople.service"/>
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name=".ui.PlayerService$ControlReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.intent.action.HEADSET_PLUG"/>
+                <action android:name="android.intent.action.PHONE_STATE"/>
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.kindabear.radiople.service.GcmService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.kindabear.radiople.service.GcmInstanceIDService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.gms.iid.InstanceID"/>
+            </intent-filter>
+        </service>
+
+    </application>
+
+</manifest>

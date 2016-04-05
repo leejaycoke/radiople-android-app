@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="18dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageview_profile"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+
+    <android.support.v4.widget.Space
+        android:layout_width="22dp"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textview_nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="산체스"
+            android:textColor="@color/text_primary_dark"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textview_created_at"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3일 전"
+            android:textColor="@color/text_primary_dark"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textview_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="아주 재미있게 잘 보고 있습니다 ^.^ 다음에 더 재미있는 방송 부탁드려요"
+            android:textColor="@color/text_secondary_dark"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+</LinearLayout>

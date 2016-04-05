@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.MainActivity">
+
+    <group
+        android:id="@+id/normal"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/navigation_notification"
+            android:icon="@drawable/ic_content_markunread"
+            android:title="@string/notification"/>
+
+
+        <item
+            android:id="@+id/navigation_subscription_list"
+            android:icon="@drawable/ic_content_inbox"
+            android:title="@string/subscription_list"/>
+
+        <item
+            android:id="@+id/navigation_history"
+            android:icon="@drawable/ic_action_restore"
+            android:title="@string/history"/>
+    </group>
+
+    <group
+        android:id="@+id/etc"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_settings"
+            android:icon="@drawable/ic_action_settings"
+            android:title="@string/settings"/>
+    </group>
+</menu>

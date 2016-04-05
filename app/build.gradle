@@ -1,0 +1,80 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "com.kindabear.radiople"
+        minSdkVersion 21
+        targetSdkVersion 23
+        versionCode 1
+        versionName "0.1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+
+            buildConfigField "String", "API_SERVER_HOSTNAME", "\"https://api.radiople.com\""
+            buildConfigField "int", "API_PORT", "80"
+
+            buildConfigField "String", "IMAGE_SERVER_HOSTNAME", "\"https://image.radiople.com\""
+            buildConfigField "int", "IMAGE_SERVER_PORTNAME", "80"
+        }
+
+        development {
+            minifyEnabled false
+
+            buildConfigField "String", "API_SERVER_HOSTNAME", "\"http://dev.api.radiople.com\""
+            buildConfigField "int", "API_PORT", "80"
+
+            buildConfigField "String", "IMAGE_SERVER_HOSTNAME", "\"http://dev.image.radiople.com\""
+            buildConfigField "int", "IMAGE_SERVER_PORTNAME", "80"
+        }
+
+        debug {
+            minifyEnabled false
+
+            buildConfigField "String", "API_SERVER_HOSTNAME", "\"http://dev.api.radiople.com\""
+            buildConfigField "int", "API_PORT", "80"
+
+            buildConfigField "String", "IMAGE_SERVER_HOSTNAME", "\"http://dev.image.radiople.com\""
+            buildConfigField "int", "IMAGE_SERVER_PORTNAME", "80"
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_6
+        targetCompatibility JavaVersion.VERSION_1_6
+    }
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+    }
+    useLibrary 'org.apache.http.legacy'
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:support-v4:23.2.1'
+    compile 'com.android.support:appcompat-v7:23.2.1'
+    compile 'com.android.support:design:23.2.1'
+    compile 'com.android.support:cardview-v7:23.2.1'
+    compile 'com.android.support:preference-v7:23.2.1'
+    compile 'com.android.support:preference-v14:23.2.1'
+    compile 'com.android.support:percent:23.2.1'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.google.code.gson:gson:2.6.2'
+    compile 'com.android.volley:volley:1.0.0'
+    compile 'joda-time:joda-time:2.9.3'
+    compile 'de.hdodenhof:circleimageview:2.0.0'
+    compile 'com.google.android.gms:play-services-gcm:8.4.0'
+    compile 'com.google.android.gms:play-services-analytics:8.4.0'
+    compile 'com.soundcloud.android:android-crop:1.0.1@aar'
+    compile 'org.apache.httpcomponents:httpcore:4.4.4'
+    compile 'com.google.android.exoplayer:exoplayer:r1.5.5'
+    compile 'com.melnykov:floatingactionbutton:1.3.0'
+    compile('org.apache.httpcomponents:httpmime:4.3.6') {
+        exclude module: 'httpclient'
+    }
+}

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primary_light" type="color">#FFEE5853</color>
+    <color name="primary" type="color">#FFEA2F29</color>
+    <color name="primary_dark" type="color">#FFBB2520</color>
+
+    <!-- activity -->
+    <color name="activity" type="color">#FFFAFAFA</color>
+
+    <!-- white -->
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- black -->
+    <color name="black">#FF000000</color>
+
+    <!-- red -->
+    <color name="red_dark" type="color">#FFBB2520</color>
+    <color name="red" type="color">#FFEA2F29</color>
+    <color name="red_light" type="color">#FFEE5853</color>
+
+    <!-- blue -->
+    <color name="progress_bar" type="color">#321976d2</color>
+    <color name="blue_light" type="color">#FF59abda</color>
+    <color name="blue" type="color">#FF428BCA</color>
+    <color name="blue_dark" type="color">#FF295880</color>
+
+    <color name="blue_grey_bright" type="color">#FFCFD8DC</color>
+
+    <color name="pink" type="color">#FFE91E63</color>
+
+    <!-- purple -->
+    <color name="purple" type="color">#FF9C27B0</color>
+    <color name="purple_light" type="color">#FFBA68C8</color>
+
+    <!-- green -->
+    <color name="green" type="color">#FF4CAF50</color>
+
+    <!-- teal -->
+    <color name="teal" type="color">#FF009688</color>
+
+    <!-- grey -->
+    <color name="grey_black" type="color">#FF212121</color>
+    <color name="grey_dark" type="color">#6c6c6c</color>
+    <color name="grey" type="color">#FF9E9E9E</color>
+    <color name="grey_light" type="color">#FFD1D1D1</color>
+    <color name="grey_bright" type="color">#FFEDEDED</color>
+
+    <!-- text dark -->
+    <color name="text_primary_dark" type="color">#DD000000</color>
+    <color name="text_secondary_dark" type="color">#89000000</color>
+    <color name="text_hint_dark" type="color">#42000000</color>
+
+    <!-- text light -->
+    <color name="text_primary_light" type="color">#FFFFFFFF</color>
+    <color name="text_secondary_light" type="color">#B2FFFFFF</color>
+    <color name="text_hint_light" type="color">#4CFFFFFF</color>
+
+    <!-- text etc -->
+    <color name="text_black_caption" type="color">#b4000000</color>
+
+    <!-- image filter -->
+    <color name="image_filter" type="color">#a0000000</color>
+    <color name="image_filter_dark" type="color">#c8000000</color>
+
+    <!-- elevation shadow -->
+    <color name="elevation_shadow" type="color">#88333333</color>
+
+    <color name="podple_button_light_default" type="color">#E6FFFFFF</color>
+    <color name="podple_button_light_pressed" type="color">#C8ffffff</color>
+
+    <color name="player_control_background" type="color">#FF37474F</color>
+    <color name="player_background" type="color">#FF263238</color>
+
+    <color name="transparent" type="color">#00000000</color>
+
+    <color name="player_control_skip_pressed" type="color">#50FFFFFF</color>
+    <color name="player_control_fast_pressed" type="color">#50FFFFFF</color>
+
+    <color name="edittext_white_normal" type="color">#b4ffffff</color>
+
+    <color name="toolbar_transparent" type="color">#50000000</color>
+
+
+    <color name="search_layover_bg" type="coor">#78000000</color>
+</resources>

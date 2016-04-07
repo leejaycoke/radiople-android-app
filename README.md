@@ -32,4 +32,4 @@ Homepage: [http://radiople.com](http://radiople.com)
 # Thanks
 관련 문제나 질문은 이슈 트래커, 이메일로 보내주시면 답변해드리겠습니다.
 
-If you have issue? please let me know [github issue tracker](https://github.com/leejaycoke/radiople-app/issues) or make a email for me leejaycoke@gmail.com.
+If you have any issue? please let me know [github issue tracker](https://github.com/leejaycoke/radiople-app/issues) or make a email for me leejaycoke@gmail.com.
